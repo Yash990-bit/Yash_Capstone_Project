@@ -1,0 +1,298 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    padding-left: 48px;
+    padding-right: 48px;
+}
+
+body {
+    background-color: #0a0a0f;
+    color: #ffffff;
+    line-height: 1.6;
+}
+
+
+.top-menu {
+    margin-left: 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 88px;
+    background-color: #376565;
+    top: 0;
+    border-radius: 22px;
+    margin-top: 40px;
+}
+.left-menu{
+    margin-left: 50px;
+}
+.right-menu a{
+    position: relative;
+    left: 20rem;
+}
+.left-menu, .right-menu {
+    display: flex;
+    gap: 2rem;
+    margin-right: 25rem;
+}
+
+.top-menu a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.website-name {
+    font-size: 30px;
+    font-weight: 600;
+    color: white;
+    position: relative;
+    left: -75px;
+}
+
+.welcome-area {
+    padding: 8rem 2rem 4rem;
+    text-align: center;
+}
+
+.welcome-area h1 {
+    
+    font-size: 10rem;
+    margin-bottom: 2rem;
+    color: #ffffff;
+
+}
+
+.main-image {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    border-radius: 1rem;
+    overflow: hidden;
+}
+
+.main-image img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+
+.work-showcase {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 2rem;
+    padding: 2rem;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.work-box {
+    background-color: rgba(26, 26, 46, 0.8);
+    border-radius: 1rem;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+
+.work-box img {
+    width: 100%;
+    height: 200px;
+}
+
+.work-box h3 {
+    padding: 1rem;
+}
+
+.work-box p {
+    padding: 0 1rem 1rem;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.about-me {
+    text-align: center;
+    padding: 4rem 2rem;
+    max-width: 1000px;
+    margin: 0 auto;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 1.4;
+    
+}
+
+
+.my-services {
+    padding: 4rem 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.my-services h2 {
+    margin-bottom: 2rem;
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    padding-left: 48px;
+    padding-right: 48px;
+}
+
+body {
+    background-color: #0a0a0f;
+    color: #ffffff;
+    line-height: 1.6;
+}
+
+
+.top-menu {
+    margin-left: 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 88px;
+    top: 0;
+    border-radius: 22px;
+    margin-top: 40px;
+}
+.left-menu{
+    margin-left: 50px;
+}
+.right-menu a{
+    position: relative;
+    left: 20rem;
+}
+.left-menu, .right-menu {
+    display: flex;
+    gap: 2rem;
+    margin-right: 25rem;
+}
+
+.top-menu a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.website-name {
+    font-size: 30px;
+    font-weight: 600;
+    color: white;
+    position: relative;
+    left: -75px;
+}
+
+
+.welcome-area {
+    padding: 8rem 2rem 4rem;
+    text-align: center;
+}
+
+.welcome-area h1 {
+    
+    font-size: 4rem;
+    margin-bottom: 2rem;
+    color: #ffffff;
+}
+
+.main-image {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    border-radius: 1rem;
+    overflow: hidden;
+}
+
+.main-image img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+
+.work-showcase {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 2rem;
+    padding: 2rem;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.work-box {
+    background-color: black;
+    border-radius: 1rem;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+
+.work-box img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.work-box h3 {
+    padding: 1rem;
+}
+
+.work-box p {
+    padding: 0 1rem 1rem;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.about-me {
+    text-align: center;
+    padding: 4rem 2rem;
+    max-width: 1000px;
+    margin: 0 auto;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 1.4;
+    
+}
+
+
+.my-services {
+    padding: 4rem 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.my-services h2 {
+    margin-bottom: 2rem;
+}
+
+.services-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+}
+.service-group{
+    justify-content: center;
+    align-content: center;
+}
+
+.service-group ul {
+    list-style: none;
+}
+
+.service-group li {
+    margin: 0.5rem 0;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+
+.contact-area {
+    text-align: center;
+    padding: 4rem 2rem;
+}
