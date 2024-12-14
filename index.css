@@ -187,7 +187,7 @@ body {
     font-weight: 600;
     color: white;
     position: relative;
-    left: -75px;
+    left: -110px;
 }
 
 
@@ -239,6 +239,7 @@ body {
     width: 100%;
     height: 200px;
     object-fit: cover;
+    border-radius: 22px;
 }
 
 .work-box h3 {
@@ -295,4 +296,8 @@ body {
 .contact-area {
     text-align: center;
     padding: 4rem 2rem;
+}
+
+.contact{
+    text-align: center;
 }
