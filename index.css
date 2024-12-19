@@ -1,303 +1,291 @@
+/* Base styles */
 * {
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
-}
-
-body{
-    padding-left: 48px;
-    padding-right: 48px;
-}
-
-body {
+  }
+  
+  body {
     background-color: #0a0a0f;
     color: #ffffff;
     line-height: 1.6;
-}
-
-
-.top-menu {
-    margin-left: 5rem;
+    font-family: 'Inter', sans-serif;
+    padding: 0 24px;
+  }
+  
+  /* Navigation */
+  .top-menu {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
     align-items: center;
-    height: 88px;
+    padding: 20px;
+    margin: 20px 0;
     background-color: #376565;
-    top: 0;
     border-radius: 22px;
-    margin-top: 40px;
-}
-.left-menu{
-    margin-left: 50px;
-}
-.right-menu a{
-    position: relative;
-    left: 20rem;
-}
-.left-menu, .right-menu {
+  }
+  
+  .left-menu, .right-menu {
     display: flex;
-    gap: 2rem;
-    margin-right: 25rem;
-}
-
-.top-menu a {
+    gap: 1rem;
+    margin: 10px 0;
+  }
+  
+  .website-name {
+    font-size: 24px;
+    font-weight: 600;
+    color: white;
+    margin: 10px 0;
+  }
+  
+  .top-menu a {
     color: #ffffff;
     text-decoration: none;
     font-weight: 500;
     transition: color 0.3s ease;
-}
-
-.website-name {
-    font-size: 30px;
-    font-weight: 600;
-    color: white;
-    position: relative;
-    left: -75px;
-}
-
-.welcome-area {
-    padding: 8rem 2rem 4rem;
+    cursor: pointer;
+  }
+  
+  /* Welcome Area */
+  .welcome-area {
+    padding: 4rem 1rem 2rem;
     text-align: center;
-}
-
-.welcome-area h1 {
-    
-    font-size: 10rem;
+  }
+  
+  .welcome-area h1 {
+    font-size: 2.5rem;
     margin-bottom: 2rem;
     color: #ffffff;
-
-}
-
-.main-image {
+  }
+  
+  .main-image {
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
     border-radius: 1rem;
     overflow: hidden;
-}
-
-.main-image img {
+  }
+  
+  .main-image img {
     width: 100%;
     height: auto;
     object-fit: cover;
-}
-
-
-.work-showcase {
+  }
+  
+  /* Work Showcase */
+  .work-showcase {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-    gap: 2rem;
-    padding: 2rem;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    padding: 1.5rem;
     max-width: 1400px;
     margin: 0 auto;
-}
-
-.work-box {
-    background-color: rgba(26, 26, 46, 0.8);
-    border-radius: 1rem;
-    overflow: hidden;
-    transition: transform 0.3s ease;
-}
-
-
-.work-box img {
-    width: 100%;
-    height: 200px;
-}
-
-.work-box h3 {
-    padding: 1rem;
-}
-
-.work-box p {
-    padding: 0 1rem 1rem;
-    color: rgba(255, 255, 255, 0.7);
-}
-
-.about-me {
-    text-align: center;
-    padding: 4rem 2rem;
-    max-width: 1000px;
-    margin: 0 auto;
-    font-size: 35px;
-    font-weight: 400;
-    line-height: 1.4;
-    
-}
-
-
-.my-services {
-    padding: 4rem 2rem;
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
-.my-services h2 {
-    margin-bottom: 2rem;
-}
-
-* {
-    margin: 0;
-    box-sizing: border-box;
-}
-
-body{
-    padding-left: 48px;
-    padding-right: 48px;
-}
-
-body {
-    background-color: #0a0a0f;
-    color: #ffffff;
-    line-height: 1.6;
-}
-
-
-.top-menu {
-    margin-left: 5rem;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 88px;
-    top: 0;
-    border-radius: 22px;
-    margin-top: 40px;
-}
-.left-menu{
-    margin-left: 50px;
-}
-.right-menu a{
-    position: relative;
-    left: 20rem;
-}
-.left-menu, .right-menu {
-    display: flex;
-    gap: 2rem;
-    margin-right: 25rem;
-}
-
-.top-menu a {
-    color: #ffffff;
-    text-decoration: none;
-    font-weight: 500;
-    transition: color 0.3s ease;
-}
-
-.website-name {
-    font-size: 30px;
-    font-weight: 600;
-    color: white;
-    position: relative;
-    left: -110px;
-}
-
-
-.welcome-area {
-    padding: 8rem 2rem 4rem;
-    text-align: center;
-}
-
-.welcome-area h1 {
-    
-    font-size: 4rem;
-    margin-bottom: 2rem;
-    color: #ffffff;
-}
-
-.main-image {
-    width: 100%;
-    max-width: 1200px;
-    margin: 0 auto;
-    border-radius: 1rem;
-    overflow: hidden;
-}
-
-.main-image img {
-    width: 100%;
-    height: auto;
-    object-fit: cover;
-}
-
-
-.work-showcase {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-    gap: 2rem;
-    padding: 2rem;
-    max-width: 1400px;
-    margin: 0 auto;
-}
-
-.work-box {
+  }
+  
+  .work-box {
     background-color: black;
     border-radius: 1rem;
     overflow: hidden;
     transition: transform 0.3s ease;
-}
-
-
-.work-box img {
+  }
+  
+  .work-box:hover {
+    transform: translateY(-5px);
+  }
+  
+  .work-box img {
     width: 100%;
     height: 200px;
     object-fit: cover;
     border-radius: 22px;
-}
-
-.work-box h3 {
+  }
+  
+  .work-box h3 {
     padding: 1rem;
-}
-
-.work-box p {
+  }
+  
+  .work-box p {
     padding: 0 1rem 1rem;
     color: rgba(255, 255, 255, 0.7);
-}
-
-.about-me {
-    text-align: center;
-    padding: 4rem 2rem;
-    max-width: 1000px;
-    margin: 0 auto;
-    font-size: 35px;
-    font-weight: 400;
-    line-height: 1.4;
-    
-}
-
-
-.my-services {
-    padding: 4rem 2rem;
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
-.my-services h2 {
-    margin-bottom: 2rem;
-}
-
-.services-list {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 2rem;
-}
-.service-group{
+  }
+  
+  /* Contact Area */
+  .contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
-    align-content: center;
-}
-
-.service-group ul {
-    list-style: none;
-}
-
-.service-group li {
-    margin: 0.5rem 0;
-    color: rgba(255, 255, 255, 0.8);
-}
-
-
-.contact-area {
+    color: white;
+    margin-top: 5rem;
+    padding: 0 20px;
+  }
+  
+  .contact h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+  }
+  
+  .contact p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+    color: #aaa;
     text-align: center;
-    padding: 4rem 2rem;
-}
-
-.contact{
+  }
+  
+  .input-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 20px;
+    justify-content: center;
+  }
+  
+  .input-container input {
+    width: 40px;
+    height: 40px;
     text-align: center;
-}
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 12px;
+    background-color: #222;
+    color: #fff;
+  }
+  
+  .submit-btn {
+    background-color: #00FFFF;
+    color: #000;
+    border: none;
+    border-radius: 25px;
+    padding: 10px;
+    width: 100%;
+    max-width: 250px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin: 20px 0;
+  }
+  
+  .skip-link {
+    font-size: 0.9rem;
+    color: #00FFFF;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  /* Footer */
+  .footer {
+    margin-top: 5rem;
+    padding: 20px;
+  }
+  
+  .footer-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+  }
+  
+  .copyright {
+    font-size: 16px;
+    color: rgba(209, 235, 235, 0.62);
+  }
+  
+  .follow-btn {
+    background: none;
+    border: 1px solid #E6E6FF;
+    color: #E6E6FF;
+    padding: 8px 16px;
+    border-radius: 30px;
+    font-size: 14px;
+    cursor: pointer;
+    opacity: 0.5;
+  }
+  
+  .follow-btn a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  /* Tablet Breakpoint */
+  @media (min-width: 768px) {
+    body {
+      padding: 0 48px;
+    }
+  
+    .top-menu {
+      flex-direction: row;
+      justify-content: space-between;
+      height: 88px;
+      padding: 0 30px;
+      margin: 40px 5rem;
+    }
+  
+    .website-name {
+      font-size: 30px;
+      margin: 0;
+    }
+  
+    .left-menu, .right-menu {
+      margin: 0;
+      gap: 2rem;
+    }
+  
+    .welcome-area h1 {
+      font-size: 3.5rem;
+    }
+  
+    .work-showcase {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 2rem;
+      padding: 2rem;
+    }
+  
+    .footer-content {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  
+    .input-container input {
+      width: 50px;
+      height: 50px;
+    }
+  }
+  
+  /* Desktop Breakpoint */
+  @media (min-width: 1024px) {
+    .welcome-area h1 {
+      font-size: 4rem;
+    }
+  
+    .work-showcase {
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: repeat(3, auto);
+    }
+  
+    /* Ensure only 9 items are shown */
+    .work-box:nth-child(n+10) {
+      display: none;
+    }
+  
+    .contact h2 {
+      font-size: 2rem;
+    }
+  
+    .copyright {
+      font-size: 20px;
+    }
+  
+    .follow-btn {
+      padding: 10px 20px;
+    }
+  }
+  
+  /* Large Desktop Breakpoint */
+  @media (min-width: 1440px) {
+    .welcome-area {
+      padding: 8rem 2rem 4rem;
+    }
+  
+    .work-showcase {
+      padding: 4rem 2rem;
+    }
+  }
